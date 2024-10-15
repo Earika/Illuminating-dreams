@@ -113,15 +113,6 @@ body {
 .footer .social-links a:hover {
   color: gold;
 }
-File: script.js
-javascript
-Copy code
-// Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
+File: js/script.js
+
 });
