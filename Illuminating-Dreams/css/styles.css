@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-  background: url('../id_background') no-repeat center center/cover;
+  background: url('..images/id_background') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
